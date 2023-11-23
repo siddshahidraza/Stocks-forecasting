@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Modern Page Title</title>
+    <style>
+        /* General styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5; /* Light Gray Background */
+            color: #333; /* Dark Gray Text */
+        }
+
+        /* Navbar styles */
+        .nav {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #3498db; /* Blue */
+            color: #ecf0f1; /* Light Gray Text */
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle Box Shadow */
+        }
+
+        .nav .start {
+            font-family: 'Raleway', sans-serif;
+            font-size: 30px;
+            margin-bottom: 10px;
+            color: #fff; /* White Text */
+        }
+
+        .nav .stock-input {
+            display: flex;
+            align-items: center; /* Center the input and button horizontally */
+            margin-bottom: 10px;
+        }
+
+        .nav .stock-input input {
+            width: 200px;
+            height: 40px;
+            font-size: 16px;
+            padding: 0 10px;
+            border: none;
+            border-radius: 5px 0 0 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle Input Shadow */
+        }
+
+        .nav .stock-input button {
+            width: 100px;
+            height: 40px;
+            font-size: 16px;
+            background-color: #e74c3c; /* Red */
+            color: #fff; /* White Text */
+            border: none;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle Button Shadow */
+        }
+
+        .nav .stock-input button:hover {
+            background-color: #c0392b; /* Darker Red on Hover */
+        }
+
+        .nav .date-input {
+            height: 40px;
+            font-size: 16px;
+            margin-left: auto;
+            margin-bottom: 20px;
+        }
+
+        .nav .selectors {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .nav .selectors button {
+            width: 150px;
+            height: 40px;
+            font-size: 16px;
+            margin-right: 20px;
+            background-color: #2ecc71; /* Green */
+            color: #fff; /* White Text */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle Button Shadow */
+        }
+
+        .nav .selectors button:hover {
+            background-color: #27ae60; /* Darker Green on Hover */
+        }
+
+        .nav .selectors input {
+            width: 200px;
+            height: 40px;
+            font-size: 16px;
+            margin-right: 20px;
+            padding: 0 10px;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle Input Shadow */
+        }
+
+        /* Content styles */
+        .content {
+            background-color: #fff; /* White Content Background */
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle Content Shadow */
+            margin: 20px; /* Add some margin for separation */
+        }
+
+        .content .header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #3498db; /* Blue Header Background */
+            color: #fff; /* White Text */
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        .content .logo {
+            height: 50px;
+            margin-right: 10px;
+            padding-right: 10px;
+        }
+
+        .content .company-name {
+            margin-left: 10px;
+            padding-left: 10px;
+            font-size: 1.5em;
+        }
+
+        .content #description {
+            width: 80%;
+            height: 10%;
+            padding: 20px;
+            margin: 0 auto;
+            text-align: center;
+            line-height: 150%;
+        }
+
+        /* Graph Section */
+        #graphs-content,
+        #main-content,
+        #forecast-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 500px;
+            background-color: #ecf0f1; /* Light Gray for Graph Section */
+            border: 1px solid #ccc; /* Border for Graph Section */
+            margin: 20px; /* Add some margin for separation */
+            padding: 20px; /* Add some padding for a classic look */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle Box Shadow */
+        }
+    </style>
+</head>
+<body>
+
+<!-- Your HTML content with the modern look -->
+<div class="nav">
+    <div class="stock-input">
+        <input type="text" placeholder="Enter stock">
+        <button class="button-73" role="button">Search</button>
+    </div>
+    <!-- Other navbar elements... -->
+</div>
+
+<!-- Graph Section -->
+<div id="graphs-content">
+    <!-- Add your graph content here -->
+</div>
+
+<!-- Content Section -->
+<div class="content">
+    <div class="header">
+        <img src="your-logo.png" alt="Company Logo" class="logo">
+        <div class="company-name">Your Company Name</div>
+    </div>
+    <div id="description">
+        <!-- Your content goes here -->
+    </div>
+</div>
+
+<!-- Rest of your HTML content... -->
+
+</body>
+</html>
